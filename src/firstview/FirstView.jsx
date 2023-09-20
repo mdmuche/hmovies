@@ -46,7 +46,7 @@ function FirstView() {
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
           width: "100%",
-          minHeight: "100vh",
+          height: "100vh",
         }}
       >
         <Nav />

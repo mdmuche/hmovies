@@ -43,6 +43,10 @@ nav {
     background-color: transparent;
     color: #ffffff;
 
+    @media only screen and (max-width: 663px) {
+      width: 70%;
+    }
+
     input {
       width: 90%;
       height: 40px;
