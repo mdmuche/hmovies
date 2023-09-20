@@ -1,0 +1,73 @@
+.landing-section {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+  .landing {
+    height: 100vh;
+    width: 100%;
+    padding: 10px;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    object-fit: cover;
+    .landing-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 100%;
+      padding: 0 100px;
+      color: #ffffff;
+
+      @media only screen and (max-width: 660px) {
+        border: 1px solid green;
+        padding: 0;
+      }
+      .container {
+        width: 404px;
+        height: 285px;
+        gap: 16px;
+        display: flex;
+        flex-direction: column;
+
+        h1 {
+          font-size: 35px;
+          font-weight: 800;
+        }
+
+        .landing-rating {
+          display: flex;
+          gap: 20px;
+
+          .apple {
+            margin-left: 20px;
+          }
+        }
+        .landing-snippet {
+          font-size: 20px;
+        }
+        a {
+          text-decoration: none;
+        }
+        .landing-button {
+          width: 170px;
+          display: flex;
+          padding: 15px 10px;
+          gap: 10px;
+          color: #ffffff;
+          border-radius: 5px;
+          background-color: red;
+          border: none;
+          img {
+            width: 18px;
+            height: 18px;
+          }
+          p {
+            font-size: 15px;
+          }
+        }
+      }
+    }
+  }
+}

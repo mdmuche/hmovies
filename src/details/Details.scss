@@ -1,0 +1,38 @@
+.moviedetail-section {
+  width: 100%;
+  .moviedetail-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .img-container {
+      height: 60%;
+      margin: auto;
+      img {
+        width: 100px;
+        height: 100px;
+      }
+    }
+  }
+  .moviedetail {
+    padding: 40px 10%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+
+    h2 {
+      color: red;
+      font-size: 35px;
+      font-weight: 800;
+    }
+    .para {
+      color: grey;
+      opacity: 0.8;
+      font-size: 15px;
+    }
+    .moviedetail-overview {
+      font-size: 18px;
+      font-weight: 400;
+    }
+  }
+}

@@ -1,0 +1,80 @@
+nav {
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  width: 90%;
+  margin: auto;
+  align-items: center;
+
+  @media only screen and (max-width: 587px) {
+    width: 100%;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .logo-box {
+    .icon-box {
+      border-radius: 50%;
+      padding: 7px;
+      background-color: red;
+
+      .tv-logo {
+        font-size: 25px;
+        color: #ffffff;
+      }
+    }
+    h2 {
+      color: #ffffff;
+
+      @media only screen and (max-width: 663px) {
+        display: none;
+      }
+    }
+  }
+
+  .search-container {
+    border: 1px solid grey;
+    width: 50%;
+    padding: 0 10px;
+    border-radius: 8px;
+    background-color: transparent;
+    color: #ffffff;
+
+    input {
+      width: 90%;
+      height: 40px;
+      border-radius: 8px;
+      border: none;
+      background-color: transparent;
+
+      &:focus {
+        outline: none;
+        color: #ffffff;
+      }
+      &::placeholder {
+        color: #ffffff;
+        font-size: 14px;
+      }
+    }
+  }
+  .right {
+    color: #ffffff;
+    .menu-box {
+      padding: 7px;
+      background-color: red;
+      border-radius: 50%;
+
+      .menu-icon {
+        color: #ffffff;
+      }
+    }
+    h2 {
+      @media only screen and (max-width: 663px) {
+        display: none;
+      }
+    }
+  }
+}
